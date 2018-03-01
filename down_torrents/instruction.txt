@@ -1,0 +1,10 @@
+# put the torrents you wanna fake DOWNLOAD, here in this folder 'down_torrents'
+# once it finishes downloading, it will be automatically moved to 'up_torrrents' and starts fake uploading
+#
+# the files torrent_name.left store the number of bytes left to download for each torrents
+# it will be updated as ptliar is committing
+#
+# please make sure that none of the files in 'up_torrent' and 'down_torrent' have the same filename
+# otherwise the duplicate in 'down_torrent' will be ignored(not a big deal though)
+#
+# duplicate torrent(same content but different filenames) will be ignored
